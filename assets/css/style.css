@@ -18,6 +18,7 @@ header {
     height: 60px;
     text-align: center;
     width: 100%;
+    background-color: white;
 }
 body {
     background-image: url(../images/starring_@2X.png);
@@ -35,27 +36,68 @@ body {
     margin: 20px 20px;
     padding-top: 20px;
 }
+h4 {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    bottom: 10px;
+}
+col img{
+    position: relative;
+}
 #pineapple {
     width: 300px;
     height: 400px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
 }
 #star {
-    width: 310px;
+    width: 300px;
     height: 400px;
     padding-bottom: 20px;
 }
 #food {
     width: 300px;
     height: 200px;
+    margin-bottom: 20px;
 }
 #karuko {
     width: 300px;
     height: 300px;
     padding-bottom: 20px;
 }
-@media screen (max-width: 768px) {
-    h1 {
+@media screen and (max-width: 768px) {
+    
+    body {
+        background-image: url(../images/starring.png);
+    }
+    header {
         text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    .container {
+        margin-left: 30px;
+        text-align: center;
+    }
+    .card-footer {
+        width: 100%;
+    }    
+}
+@media screen and (max-width: 575.98px) {
+    header {
+        width: 100%;
+        font-size: 23px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .container {
+        width: 100%;
+    }
+    h4 {
+        margin: 0;
     }
 }
