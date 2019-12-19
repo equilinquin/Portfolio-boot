@@ -51,6 +51,18 @@ h2 {
     position: relative;
     margin-top: 100px;
 }
+.fab {
+    font-size: 30px;
+    padding: 10px;
+}
+.far {
+    font-size: 30px;
+    padding: 10px;
+}
+.fas {
+    font-size: 30px;
+    padding: 10px;
+}
 
 p {
     float: left;
