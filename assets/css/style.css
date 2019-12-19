@@ -1,19 +1,22 @@
 nav {
-    background-color: white;
+    /* background-color: teal; */
+    background-image: url(../images/old_moon.png)
+}
+.nav-link {
+    color: black;
 }
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: teal;
     height: 80px;
     margin-top: 10px;
     width: 380px;
     font-size: 30px;
     margin-left: 200px;
     padding-top: 15px;
-    color: white;
+    color: black;
 }
 .card-footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     height: 60px;
     text-align: center;
@@ -21,7 +24,7 @@ header {
     background-color: white;
 }
 body {
-    background-image: url(../images/starring_@2X.png);
+    background-image: url(../images/sun-pattern.png);
 }
 
 .container {
