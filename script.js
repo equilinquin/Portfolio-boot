@@ -10,7 +10,7 @@ $(".calendar").click(function (e) {
 
 $(".project").click(function (e) {
     e.preventDefault();
-    window.open("https://tcanbolat.github.io/Group-Repo/");
+    window.open("https://github.com/tcanbolat/Portland-Food-App");
 });
 $("#github").click(function(e) {
     e.preventDefault();
